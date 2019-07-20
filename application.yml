@@ -1,0 +1,16 @@
+spring
+  profiles:
+    active:
+    - dev
+---  #三个短横线分割多个profile区（文档块）
+spring:
+  profiles: dev  #开发环境
+  application:
+    name: microservicecloud-config-rongda-dev
+---
+spring:
+  profiles: test  #测试环境
+  application:
+    name: microservicecloud-config-rongda-test
+    
+# 请保持为UTF-8格式    
