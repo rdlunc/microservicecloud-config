@@ -30,7 +30,7 @@ mybatis:
 eureka:
   client: #客户端注册进Eureka服务列表
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/      
+      defaultZone: http://eureka7001.com:7001/eureka/      
   instance:
     instance-id: dept-8001 #自定义服务名称信息
     prefer-ip-address: true  #访问路径可以显示IP地址 
@@ -69,7 +69,7 @@ mybatis:
 eureka:
   client: #客户端注册进Eureka服务列表
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/      
+      defaultZone: http://eureka7001.com:7001/eureka/   
   instance:
     instance-id: dept-8001 #自定义服务名称信息
     prefer-ip-address: true  #访问路径可以显示IP地址 
